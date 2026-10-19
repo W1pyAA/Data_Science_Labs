@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "seed": 42,
+    "features_numeric": [
+        "cylinders",
+        "displacement",
+        "horsepower",
+        "weight",
+        "acceleration",
+        "model_year"
+    ],
+    "features_categorical": [
+        "origin"
+    ],
+    "chosen_model": "Variant 2 NN (64)"
+}
