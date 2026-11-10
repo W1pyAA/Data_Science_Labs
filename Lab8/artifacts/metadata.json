@@ -1,0 +1,36 @@
+{
+    "source": "UCI Machine Learning Repository",
+    "dataset_name": "Energy Efficiency Dataset",
+    "file": "ENB2012_data.xlsx",
+    "target": "Heating_Load",
+    "target_units": "kWh/m^2",
+    "task_type": "Regression",
+    "excluded_columns": [
+        "Heating_Load",
+        "Cooling_Load"
+    ],
+    "feature_names": [
+        "Relative_Compactness",
+        "Surface_Area",
+        "Wall_Area",
+        "Roof_Area",
+        "Overall_Height",
+        "Orientation",
+        "Glazing_Area",
+        "Glazing_Area_Distribution"
+    ],
+    "seed": 42,
+    "split_ratio": "70/15/15",
+    "train_size": 537,
+    "val_size": 115,
+    "test_size": 116,
+    "hypothesis": "Збільшення ширини шарів з 32 до 64 нейронів",
+    "hypothesis_result": "Підтверджена (розширення шарів зменшило RMSE)",
+    "selected_model": "NN_Improved (64 units)",
+    "packages": {
+        "python": "3.11.9",
+        "tensorflow": "2.21.0",
+        "numpy": "2.4.6",
+        "pandas": "3.1.1"
+    }
+}
