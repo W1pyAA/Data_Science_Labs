@@ -1,0 +1,34 @@
+{
+    "class_names": [
+        "Футболка або топ",
+        "Штани",
+        "Светр",
+        "Сукня",
+        "Пальто",
+        "Сандалі",
+        "Сорочка",
+        "Кросівки",
+        "Сумка",
+        "Черевики"
+    ],
+    "input_shape": [
+        28,
+        28
+    ],
+    "dtype": "float32",
+    "input_scale": "0-255",
+    "rescaling_layer": "inside_model",
+    "seed": 42,
+    "train_indices_count": 48000,
+    "val_indices_count": 12000,
+    "variant": 2,
+    "variant_description": "256 нейронів у прихованому Dense-шарі",
+    "selection_criterion": "validation_cross_entropy",
+    "selected_model": "Варіант 2 Dense(256)",
+    "packages": {
+        "python": "3.11.9",
+        "tensorflow": "2.21.0",
+        "numpy": "2.4.6",
+        "pandas": "3.1.1"
+    }
+}
